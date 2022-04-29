@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" media="screen and (max-width: 1250px)" href="css/phone.css">
+
+
+    <style>
+        .section {
+            width: 100%;
+            height: 100vh;
+            background-color: #ddd;
+        }
+
+        .container {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+        }
+
+        .content-section {
+            float: left;
+            width: 55%;
+        }
+
+        .image-section {
+            float: right;
+            width: 40%;
+        }
+
+        .image-section img {
+            width: 100%;
+            /* height: auto;  */
+        }
+
+        .content-section .title {
+            text-transform: uppercase;
+            font-size: 28px;
+        }
+
+        .content-section .content1 h3 {
+            margin-top: 20px;
+            color: #5d5d5d;
+            font-size: 20px;
+        }
+
+        .content-section .content1 p {
+            margin-top: 10px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .content-section .content1 .button {
+            /* margin: 2px; */
+            margin-top: 30px;
+            /* padding: 1px 5px;
+            border: 2px solid black;
+            display: inline;
+            background: black; */
+
+        }
+
+        .content-section .content1 .button a {
+            background-color: 3d3d3d;
+            padding: 12px 40px;
+            /* margin-top: 20px; */
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            color: brown;
+        }
+
+        .content-section .content1 .button a:hover {
+            background-color: #a52a2a;
+            color: #fff;
+        }
+
+        .content-section .social {
+            margin: 40px 40px;
+        }
+
+        .content-section .social i {
+            color: #a52a2a;
+            font-size: 30px;
+            padding: 0px 10px;
+        }
+
+        .content-section .social i:hover {
+            color: #3d3d3d;
+        }
+
+        @media screen and (max-width: 1250px) {
+           
+
+            .container {
+                padding-top: 180px;
+            }
+
+            .content-section{
+                float: none;
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+
+            .image-section {
+                float: none;
+                 /* width: 100%;
+                display: block; */
+                margin: auto; 
+        }
+        .image-section img{
+              width: 100%;
+                display: block;
+               
+        }
+
+        .content-section .title{
+            text-align: center;
+            font-size: 19px;
+        }
+
+        .content-section .content1 .button {
+            text-align: center;
+
+        }
+
+        .content-section .content1 .button a{
+            padding: 9px 30px;
+        }
+        .content-section .social{
+            text-align: center;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo4.png" alt="Hind Rasoi">
+        </div>
+
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="index.html#recipies">Recipies</a></li>
+            <li class="item"><a href="aboutus.html">About us</a></li>
+            <li class="item"><a href="index.html#contact">Contact us</a></li>
+
+        </ul>
+        <div class="search">
+            <input  class="search-txt" name="search" id="search" placeholder="Search Recipie">
+            <a class="search-btn" href="">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h2>About us</h1>
+                </div>
+                <div class="content1">
+                    <h3>
+                        Hind Rasoi, taste of India for exploreing you desh ka swad desh kai sath.
+                    </h3>
+                    <p>We have started our journey by exploring to different states of india to know their taste and secret of their recipe.
+                        The recipe you will find in Hind Rasoi are healtly enough to make u fit and complete the emptiness of taste in your life.
+                    </p>
+
+                    <h3>Give a try to Desh ki recipe.</h3>
+                    <div class="button">
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+            <div class="image-section">
+                <img src="logo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <div class="center">
+            Copyright &copy; www.hindRasoi.com All rights Reserved!
+        </div>
+    </footer> -->
+</body>
+
+</html>

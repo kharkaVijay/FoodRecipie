@@ -1,0 +1,101 @@
+body{
+    /* background-color: red; */
+}
+
+/* Navigation Section */
+  #navbar{
+     
+      flex-direction: column;
+      height: 138px;
+  }
+
+  
+#navbar .search{
+    top: 78%;
+    left: 39%;
+    height: 22px;
+    width: 150px;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 6px;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 200px;
+}
+ .search-btn{
+     height: 22px;
+     left: 83%;
+ }
+
+ .search-txt{
+     line-height: 24px;
+     font-size: 13px;
+     position: absolute;
+     
+ }
+
+ #navbar .fa {
+    font-size: 16px;
+}
+
+
+  #navbar ul li a{
+      padding: 0px 7px;
+  }
+
+  #navbar ul li{
+      padding-left: 0px;
+  }
+
+
+/* Home section */
+#home{
+  height: 498px;
+  padding: 12px 14px;
+}
+#home::before{
+ height: 489px;
+}
+
+#home p{
+   font-size: 13px;
+  
+}
+ 
+.h-primary{
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* Contact us section */
+
+#contact-box form{
+    width: 74%;
+}
+
+/* footer */
+
+
+/* For about us page image */
+
+
+/* .section{
+    height: 635px;
+}
+
+.container{
+    padding-top: 180px;
+} */
+ 
+
+ 
